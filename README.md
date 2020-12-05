@@ -1,9 +1,9 @@
-# CIA-SSD
+# CIA-SSD: Confident IoU-Aware Single Stage Object Detector From Point Cloud (AAAI 2021) [Paper](https://github.com/poodarchu/det3d) 
 
-The official codebase of the AAAI 2021 paper CIA-SSD: Confident IoU-Aware Single Stage Object Detector From Point Cloud, will be avaliable soon.
+State-of-the-art single-stage object detector from point cloud on KITTI Benchmark, running at very high speed of 32FPS.
+Authors: Wu Zheng, Weiliang Tang, Sijin Chen, Li Jiang, Chi-Wing Fu.
 
-
-### [CIA-SSD] on KITTI(val) Car Dataset
+## AP<sub>R11 on KITTI Car Val Split
 
 ```
 car  AP @0.70, 0.70,  0.70:
