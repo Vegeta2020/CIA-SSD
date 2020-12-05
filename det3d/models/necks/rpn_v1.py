@@ -22,10 +22,10 @@ from ..utils import build_norm_layer
 
 # Attentionally Spatial-semantic RPN
 @NECKS.register_module
-class ASS_RPN(nn.Module):
+class FFSA(nn.Module):
     def __init__(self, layer_nums, ds_layer_strides, ds_num_filters, us_layer_strides, us_num_filters,
                  num_input_features, norm_cfg=None, name="rpn", logger=None, **kwargs):
-        super(ASS_RPN, self).__init__()
+        super(FFSA, self).__init__()
         self._layer_strides = ds_layer_strides  # [1,]
         self._num_filters = ds_num_filters      # [128,]
         self._layer_nums = layer_nums           # [5,]
