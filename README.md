@@ -37,7 +37,7 @@ $ python setup.py install
 $ cd ./CIA-SSD
 $ python setup.py build develop
 ```
-For installation of other related packages and data preparation, please follow [Det3D](https://github.com/poodarchu/Det3D/blob/master/INSTALLATION.md).
+For installation of other [related packages]((https://github.com/poodarchu/Det3D/blob/master/INSTALLATION.md)) and [data preparation](https://github.com/poodarchu/Det3D/blob/master/GETTING_STARTED.md), please follow Det3D.
 
 ## Train and Eval
 
