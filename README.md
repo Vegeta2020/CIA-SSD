@@ -48,10 +48,10 @@ $ python ./CIA-SSD/tools/create_data.py
 
 Train the CIA-SSD:
 ```bash
-Single GPU
 $ cd ./CIA-SSD/tools
+Single GPU:
 $ python train.py
-Multiple GPU
+Multiple GPU:
 $ python -m torch.distributed.launch --nproc_per_node=4 train.py
 ```
 
