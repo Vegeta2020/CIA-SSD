@@ -41,9 +41,9 @@ For installation of other [related packages](https://github.com/poodarchu/Det3D/
 
 ## Train and Eval
 
-Please use our code to generate ground truth info .pkl file:
+Please use our code to generate ground truth data:
 ```bash
-$ python ./CIA-SSD/det3d/datasets/utils/create_gt_database.py
+$ python ./CIA-SSD/tools/create_data.py
 ```
 
 Train the CIA-SSD:
