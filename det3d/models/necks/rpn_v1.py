@@ -137,6 +137,6 @@ class FFSA(nn.Module):
         x_weight = torch.softmax(torch.cat([x_weight_0, x_weight_1], dim=1), dim=1)
         x_output = x_output_0 * x_weight[:, 0:1, :, :] + x_output_1 * x_weight[:, 1:, :, :]
 
-        return x_output
+        return x_output.contiguous()
 
 
