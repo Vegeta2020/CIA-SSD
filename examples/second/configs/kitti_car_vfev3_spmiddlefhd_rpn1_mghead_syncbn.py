@@ -13,7 +13,7 @@ box_coder = dict(type="ground_box3d_coder", n_dim=7, linear_dim=False, encode_an
 
 
 
-TAG = 'exp_trainval_v0_0'
+TAG = 'exp_test'
 
 my_paras = dict(
     batch_size=4,
