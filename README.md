@@ -3,7 +3,7 @@
 State-of-the-art single-stage object detector from point cloud on KITTI Benchmark, running at very high speed of 32FPS.
 Authors: Wu Zheng, Weiliang Tang, Sijin Chen, Li Jiang, Chi-Wing Fu.
 
-## AP<sub>R11</sup> on KITTI Car Val Split
+## AP<sub>R11</sub> on KITTI Car Val Split
 
 ```
 car  AP @0.70, 0.70,  0.70:
