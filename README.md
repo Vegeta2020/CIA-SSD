@@ -6,7 +6,7 @@ Currently state-of-the-art single-stage object detector from point cloud on KITT
 
 ## AP<sub>R11</sub> on KITTI Dataset
 
-Val Split
+Val Split:
 ```
 Car  AP @0.70, 0.70,  0.70:
 bbox AP:98.85, 90.19, 89.58
@@ -15,7 +15,7 @@ bev  AP:90.51, 88.86, 87.95
 aos  AP:98.77, 89.98, 89.22
 ```
 
-[Test Split](http://www.cvlibs.net/datasets/kitti/eval_object_detail.php?&result=b4e17f75f5baa917c4f250e832aace71682c3a84)
+Test Split: [Submission link](http://www.cvlibs.net/datasets/kitti/eval_object_detail.php?&result=b4e17f75f5baa917c4f250e832aace71682c3a84)
 
 ## Pipeline
 
