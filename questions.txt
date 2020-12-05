@@ -1,9 +1,0 @@
-1. SECOND并没有对正负样本进行一定比率组合；PVRCNN中这样做了；target_ops
-2. SML1间断点的选取；losses.py
-3. cls_loss的CLS_WEIGTH只考虑正样本总数，未考虑负样本； mg_head.py
-4. cls_loss和loc_loss比例相同，loc_loss的比率似乎代码中没有实现； losses.py
-5. ConvTranspose2d中kernel和stride都等于1，和conv有什么区别？
-
-
-尝试：
-1. VFE：不仅仅采用平均值，也可以加入极大值和极小值
