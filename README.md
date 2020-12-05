@@ -30,9 +30,9 @@ The pipeline of our proposed Confident IoU-Aware Single-Stage object Detector (C
 
 ```bash
 $ git clone https://github.com/Vegeta2020/CIA-SSD.git
-$ cd /CIA-SSD/det3d/core/iou3d
-$ python setup.py build install
-$ cd /CIA-SSD
+$ cd ./CIA-SSD/det3d/core/iou3d
+$ python setup.py install
+$ cd ./CIA-SSD
 $ python setup.py build develop
 ```
 For installation of other related packages, please follow [Det3D](https://github.com/poodarchu/Det3D/blob/master/INSTALLATION.md)
