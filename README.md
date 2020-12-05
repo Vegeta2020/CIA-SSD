@@ -41,6 +41,8 @@ Please follow Det3D for installation of other [related packages](https://github.
 
 ## Train and Eval
 
+Please configure the model in ```/CIA-SSD/examples/second/configs/kitti_car_vfev3_spmiddlefhd_rpn1_mghead_syncbn.py```
+
 Please use our code to generate ground truth data:
 ```bash
 $ python ./CIA-SSD/tools/create_data.py
