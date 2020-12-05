@@ -150,13 +150,13 @@ class KittiDataset(PointCloudDataset):
         # for regular raw lidar data, z_axis = 2, z_center = 0.5.
 
         result_official_dict = get_official_eval_result(gt_annos, dt_annos, self._class_names, z_axis=z_axis, z_center=z_center)
-        result_coco_dict = get_coco_eval_result(gt_annos, dt_annos, self._class_names, z_axis=z_axis, z_center=z_center)
+        #result_coco_dict = get_coco_eval_result(gt_annos, dt_annos, self._class_names, z_axis=z_axis, z_center=z_center)
 
-        results = {"results": {"official": result_official_dict["result"],
-                               "coco": result_coco_dict["result"],},
+        results = {"results": {"official": result_official_dict["result"]},
+                               #"coco": result_coco_dict["result"],},
                    "detail": {"eval.kitti": {
-                                   "official": result_official_dict["detail"],
-                                   "coco": result_coco_dict["detail"],}},}
+                                   "official": result_official_dict["detail"]}},}
+                                   #"coco": result_coco_dict["detail"],}},}
         return results, dt_annos
 
     def __getitem__(self, idx):
