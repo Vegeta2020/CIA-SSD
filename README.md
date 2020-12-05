@@ -32,9 +32,9 @@ The pipeline of our proposed Confident IoU-Aware Single-Stage object Detector (C
 
 ```bash
 $ git clone https://github.com/Vegeta2020/CIA-SSD.git
-$ cd ./CIA-SSD-master/det3d/core/iou3d
+$ cd ./CIA-SSD/det3d/core/iou3d
 $ python setup.py install
-$ cd ./CIA-SSD-master
+$ cd ./CIA-SSD
 $ python setup.py build develop
 ```
 For installation of other related packages and data preparation, please follow [Det3D](https://github.com/poodarchu/Det3D/blob/master/INSTALLATION.md)
@@ -43,20 +43,20 @@ For installation of other related packages and data preparation, please follow [
 
 Please use our code to generate ground truth info .pkl file:
 ```bash
-$ python ./CIA-SSD-master/det3d/datasets/utils/create_gt_database.py
+$ python ./CIA-SSD/det3d/datasets/utils/create_gt_database.py
 ```
 
 Train the CIA-SSD:
 ```bash
 Single GPU
-$ python ./CIA-SSD-master/tools/train.py
+$ python ./CIA-SSD/tools/train.py
 Multiple GPU
-$ python -m torch.distributed.launch --nproc_per_node=4 ./CIA-SSD-master/tools/train.py
+$ python -m torch.distributed.launch --nproc_per_node=4 ./CIA-SSD/tools/train.py
 ```
 
 Evaluate the CIA-SSD:
 ```bash
-$ python ./CIA-SSD-master/tools/test.py
+$ python ./CIA-SSD/tools/test.py
 ```
 
 ## Citation
