@@ -1,4 +1,4 @@
-## CIA-SSD: Confident IoU-Aware Single Stage Object Detector From Point Cloud (AAAI 2021) [Paper](https://github.com/poodarchu/det3d) 
+## [CIA-SSD: Confident IoU-Aware Single Stage Object Detector From Point Cloud, AAAI 2021](https://github.com/poodarchu/det3d) 
 
 State-of-the-art single-stage object detector from point cloud on KITTI Benchmark, running at very high speed of 32FPS.
 Authors: Wu Zheng, Weiliang Tang, Sijin Chen, Li Jiang, Chi-Wing Fu.
