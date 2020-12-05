@@ -22,7 +22,7 @@ aos  AP:98.90, 89.89, 89.11
 Test Split: [Submission link](http://www.cvlibs.net/datasets/kitti/eval_object_detail.php?&result=b4e17f75f5baa917c4f250e832aace71682c3a84)
 
 ## Pipeline
-![pipeline](https://github.com/Vegeta2020/CIA-SSD/tree/master/pictures/pipeline.jpg)
+![pipeline](https://github.com/Vegeta2020/CIA-SSD/tree/master/pictures/pipeline.png)
 
 ## Installation
 
