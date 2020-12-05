@@ -4,9 +4,9 @@ Currently state-of-the-art single-stage object detector from point cloud on KITT
 
 **Authors**: Wu Zheng, Weiliang Tang, Sijin Chen, Li Jiang, Chi-Wing Fu.
 
-## AP<sub>R11</sub> on KITTI Dataset
+## AP on KITTI Dataset
 
-Val Split:
+Val Split (11 recall points):
 ```
 Car  AP @0.70, 0.70,  0.70:
 bbox AP:98.85, 90.19, 89.58
