@@ -26,7 +26,7 @@ from det3d.torchie.apis import (
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Train a detector")
-    parser.add_argument("--config", default='../examples/second/configs/config.py', help="train config file path")
+    parser.add_argument("--config", default='../examples/second/configs/kitti_car_vfev3_spmiddlefhd_rpn1_mghead_syncbn.py', help="train config file path")
     parser.add_argument("--work_dir", help="the dir to save logs and models")
     parser.add_argument("--resume_from", help="the checkpoint file to resume from")
     parser.add_argument("--validate", action="store_true", help="whether to evaluate the checkpoint during training",)
