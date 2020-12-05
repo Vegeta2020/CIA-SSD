@@ -12,17 +12,6 @@ box_coder = dict(type="ground_box3d_coder", n_dim=7, linear_dim=False, encode_an
 
 
 
-# Evaluation official: car AP(Average Precision)@0.70, 0.70, 0.70:
-# bbox AP:98.85, 90.19, 89.58
-# bev  AP:90.51, 88.86, 87.95
-# 3d   AP:90.00, 79.86, 78.84
-# aos  AP:98.77, 89.98, 89.22
-# car AP(Average Precision)@0.70, 0.50, 0.50:
-# bbox AP:98.85, 90.19, 89.58
-# bev  AP:98.92, 90.29, 89.81
-# 3d   AP:99.01, 90.23, 89.70
-# aos  AP:98.77, 89.98, 89.22
-
 
 TAG = 'exp_trainval_v0_0'
 
