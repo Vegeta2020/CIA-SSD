@@ -66,4 +66,4 @@ If you find this work useful in your research, please consider cite:
 This codebase is released under the [Apache licenes](LICENES).
 
 ## Acknowledgement
-Our code are mainly based on [Det3D](https://github.com/poodarchu/det3d), we thank for their contributions!
+Our code are mainly based on [Det3D](https://github.com/poodarchu/det3d), thanks for their contributions! We also thank for the reviewers's valuable comments of this paper.
