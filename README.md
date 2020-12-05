@@ -41,7 +41,7 @@ For installation of other related packages and data preparation, please follow [
 
 ## Train and Eval
 
-Generate ground truth info .pkl file:
+Please use our code to generate ground truth info .pkl file:
 ```bash
 $ python ./CIA-SSD-master/det3d/datasets/utils/create_gt_database.py
 ```
@@ -50,7 +50,7 @@ Train the CIA-SSD:
 ```bash
 Single GPU
 $ python ./CIA-SSD-master/tools/train.py
-Multip GPU
+Multiple GPU
 $ python -m torch.distributed.launch --nproc_per_node=4 ./CIA-SSD-master/tools/train.py
 ```
 
