@@ -23,7 +23,7 @@ Test Split: [Submission link](http://www.cvlibs.net/datasets/kitti/eval_object_d
 
 ## Pipeline
 
-![pipeline](https://github.com/Vegeta2020/CIA-SSD/blob/master/pictures/pipeline.jpg)
+![pipeline](https://github.com/Vegeta2020/CIA-SSD/blob/master/pictures/pipeline.png)
 
 ## Installation
 
