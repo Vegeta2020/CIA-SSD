@@ -8,7 +8,7 @@ from det3d.datasets.kitti import kitti_common as kitti_ds
 from det3d.datasets.utils.create_gt_database import create_groundtruth_database
 from det3d.torchie import Config
 
-cfg = Config.fromfile("../examples/second/configs/config.py")
+cfg = Config.fromfile("../examples/second/configs/kitti_car_vfev3_spmiddlefhd_rpn1_mghead_syncbn.py")
 
 def kitti_data_prep(root_path):
     # compress info of image(path), velodyne(path), label (all info but dc removed),
@@ -50,10 +50,10 @@ def kitti_data_prep(root_path):
     #                   "num_points_in_gt": [n0, n1, n2, ..., -1, -1, -1],  # dc gt are counted as -1.
     #                  }
     #        }
-    #kitti_ds.create_kitti_info_file(root_path)
+    kitti_ds.create_kitti_info_file(root_path)
 
     # all points outside of image_range are removed and kept as reduced point_cloud .bin file.
-    #kitti_ds.create_reduced_point_cloud(root_path)
+    kitti_ds.create_reduced_point_cloud(root_path)
 
 
     # dbinfos_train.pkl
