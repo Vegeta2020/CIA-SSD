@@ -21,7 +21,7 @@ aos  AP:98.90, 89.89, 89.11
 
 Test Split: [Submission link](http://www.cvlibs.net/datasets/kitti/eval_object_detail.php?&result=b4e17f75f5baa917c4f250e832aace71682c3a84)
 
-You may download the pre-trained model [here](https://drive.google.com/file/d/1ZpGcmkpNj9RVeQylM_xqMZ_b4RGoKQFJ/view?usp=sharing), which is trained on the train split (3712 samples). The moderate 3D AP is normal in the range of 79.8±0.15
+You may download the pre-trained model [here](https://drive.google.com/file/d/1ZpGcmkpNj9RVeQylM_xqMZ_b4RGoKQFJ/view?usp=sharing), which is trained on the train split (3712 samples). Notice that it's normal to obtain the moderate 3D AP as 79.8±0.15 when you train it by your own.
 
 ## Pipeline
 
