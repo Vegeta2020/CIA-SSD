@@ -77,7 +77,7 @@ If you find this work useful in your research, please consider cite:
 
 
 ## License
-This codebase is released under the [Apache license](LICENSES).
+This codebase is released under the [Apache 2.0 license](LICENSE).
 
 ## Acknowledgement
 Our code are mainly based on [Det3D](https://github.com/poodarchu/det3d), thanks for their contributions! We also thank for the reviewers's valuable comments on this paper.
