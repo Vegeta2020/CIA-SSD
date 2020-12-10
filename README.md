@@ -1,6 +1,6 @@
-## CIA-SSD: Confident IoU-Aware Single Stage Object Detector From Point Cloud (AAAI 2021) [[Paper]](https://arxiv.org/abs/2012.03015) 
+## CIA-SSD: Confident IoU-Aware Single Stage Object Detector From Point Cloud (AAAI 2021) [[Paper]](https://arxiv.org/abs/2012.03015)
 
-Currently state-of-the-art single-stage object detector from point cloud on KITTI Benchmark, running with high speed of 32FPS.
+Currently state-of-the-art single-stage object detector from point cloud on KITTI Benchmark, running with 32FPS.
 
 **Authors**: Wu Zheng, Weiliang Tang, Sijin Chen, Li Jiang, Chi-Wing Fu.
 
@@ -41,7 +41,7 @@ Please follow Det3D for installation of other [related packages](https://github.
 
 ## Train and Eval
 
-Configure the model in 
+Configure the model in
 ```bash
 $ /CIA-SSD/examples/second/configs/kitti_car_vfev3_spmiddlefhd_rpn1_mghead_syncbn.py
 ```
@@ -67,13 +67,11 @@ $ python test.py
 ## Citation
 If you find this work useful in your research, please consider cite:
 ```
-@misc{zheng2020ciassd,
-      title={CIA-SSD: Confident IoU-Aware Single-Stage Object Detector From Point Cloud}, 
-      author={Wu Zheng and Weiliang Tang and Sijin Chen and Li Jiang and Chi-Wing Fu},
-      year={2020},
-      eprint={2012.03015},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{zheng2020ciassd,
+  title={CIA-SSD: Confident IoU-Aware Single-Stage Object Detector From Point Cloud},
+  author={Wu Zheng, Weiliang Tang, Sijin Chen, Li Jiang, Chi-Wing Fu},
+  booktitle={AAAI},
+  year={2021}
 }
 ```
 
@@ -82,4 +80,4 @@ If you find this work useful in your research, please consider cite:
 This codebase is released under the [Apache licenes](LICENES).
 
 ## Acknowledgement
-Our code are mainly based on [Det3D](https://github.com/poodarchu/det3d), thanks for their contributions! We also thank for the reviewers's valuable comments of this paper.
+Our code are mainly based on [Det3D](https://github.com/poodarchu/det3d), thanks for their contributions! We also thank for the reviewers's valuable comments on this paper.
