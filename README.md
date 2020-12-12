@@ -2,7 +2,7 @@
 
 Currently state-of-the-art single-stage object detector from point cloud on KITTI Benchmark, running with 32FPS.
 
-**Authors**: Wu Zheng, Weiliang Tang, Sijin Chen, Li Jiang, Chi-Wing Fu.
+**Authors**: [Wu Zheng](https://github.com/Vegeta2020), Weiliang Tang, Sijin Chen, [Li Jiang](https://github.com/llijiang), Chi-Wing Fu.
 
 ## AP on KITTI Dataset
 
