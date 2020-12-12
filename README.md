@@ -65,7 +65,7 @@ $ python test.py
 ```
 
 ## Citation
-If you find this work useful in your research, please consider cite:
+If you find this work useful in your research, please star our repository and consider citing:
 ```
 @inproceedings{zheng2020ciassd,
   title={CIA-SSD: Confident IoU-Aware Single-Stage Object Detector From Point Cloud},
