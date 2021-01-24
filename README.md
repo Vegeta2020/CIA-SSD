@@ -81,3 +81,7 @@ This codebase is released under the Apache 2.0 license.
 
 ## Acknowledgement
 Our code are mainly based on [Det3D](https://github.com/poodarchu/det3d), thanks for their contributions! We also thank for the reviewers's valuable comments on this paper.
+
+
+## Contact
+If you have any questions or suggestions about this repo, please feel free to contact me (zheng-w10@foxmail.com)
