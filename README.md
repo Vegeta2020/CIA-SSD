@@ -84,4 +84,4 @@ Our code are mainly based on [Det3D](https://github.com/poodarchu/det3d), thanks
 
 
 ## Contact
-If you have any questions or suggestions about this repo, please feel free to contact me (zheng-w10@foxmail.com)
+If you have any question or suggestion about this repo, please feel free to contact me (zheng-w10@foxmail.com)
