@@ -20,7 +20,7 @@ from ..registry import NECKS
 from ..utils import build_norm_layer
 
 
-# Attentionally Spatial-semantic RPN
+# Spatial-Semantic Feature Aggregation (SSFA) Module
 @NECKS.register_module
 class SSFA(nn.Module):
     def __init__(self, layer_nums, ds_layer_strides, ds_num_filters, us_layer_strides, us_num_filters,
