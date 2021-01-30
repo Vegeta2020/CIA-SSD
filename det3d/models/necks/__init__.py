@@ -1,4 +1,4 @@
 from .fpn import FPN
-from .rpn_v1 import FFSA
+from .rpn_v1 import SSFA
 
-__all__ = ["FFSA"]
+__all__ = ["SSFA"]

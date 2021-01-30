@@ -38,7 +38,7 @@ model = dict(
     reader=dict(type="VoxelFeatureExtractorV3", num_input_features=4, norm_cfg=norm_cfg,),
     backbone=dict(type="SpMiddleFHD", num_input_features=4, ds_factor=8, norm_cfg=norm_cfg,),
     neck=dict(
-        type="FFSA",
+        type="SSFA",
         layer_nums=[5,],
         ds_layer_strides=[1,],
         ds_num_filters=[128,],
