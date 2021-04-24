@@ -337,7 +337,7 @@ def get_mAP(prec):
 #    sums = 0
 #    for i in range(0, prec.shape[-1], 1):
 #        sums = sums + prec[..., i]
-#    return sums / 41 * 100
+#    return sums / 40 * 100
 
 
 def do_eval_v2(
