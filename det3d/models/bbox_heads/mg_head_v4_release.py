@@ -198,7 +198,7 @@ class Head(nn.Module):
         self.conv_box = nn.Conv2d(num_input, num_pred, 1)  # 128 -> 14
         self.conv_cls = nn.Conv2d(num_input, num_cls, 1)   # 128 -> 2
         #self.conv_iou = nn.Conv2d(num_input, 2, 1)         # 128 -> 2
-        self.conv_iou = nn.Conv2d(in_channels=128, out_channels=2, kernel_size=1, stride=1, padding=1, bias=False,)
+        self.conv_iou = nn.Conv2d(in_channels=128, out_channels=2, kernel_size=3, stride=1, padding=1, bias=False,)
 
         if self.use_dir:
             self.conv_dir = nn.Conv2d(num_input, num_dir, 1)  # 128 -> 4
