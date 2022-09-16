@@ -4,6 +4,9 @@ Currently state-of-the-art single-stage object detector from point cloud on KITT
 
 **Authors**: [Wu Zheng](https://github.com/Vegeta2020), Weiliang Tang, Sijin Chen, [Li Jiang](https://github.com/llijiang), Chi-Wing Fu.
 
+## TensorRT Version
+A faster [TensorRT version](https://github.com/jingyue202205/CIA-SSD-AI-TRT) of CIA-SSD is going to be available thanks to [@jingyue202205](https://github.com/jingyue202205).
+
 ## AP on KITTI Dataset
 
 Val Split (11 recall points):
